@@ -1,0 +1,5 @@
+{
+    "input_URL":"https://accessibility.umn.edu/web-designers/tables-web-pages",
+    "input_Table_Number": 1,
+    "output_CSV_Name":"ExportedCsv.csv"
+}

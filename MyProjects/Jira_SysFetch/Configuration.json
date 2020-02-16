@@ -1,0 +1,13 @@
+{
+    "Input_FileName":"Jira_Test.csv",
+    "Input_FieldSeperator":",",
+    "datafile_ColumnToBeFiltered":"Status",
+    "datafile_FilteringValues":["To Do", "Awaiting Deployment"],
+    "datafile_RequiredColumns":["Assignee","Status","Issue key"],
+    "mailDetails":{
+        "mail_To":"abc",
+        "mail_CC":"def",
+        "mail_Subject":"Hi, This Subject Would be Printed",
+        "mail_Body":"This is Mail Body"
+    }
+}

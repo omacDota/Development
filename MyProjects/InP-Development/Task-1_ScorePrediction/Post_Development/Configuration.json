@@ -1,0 +1,37 @@
+{
+    "Input_FilePath": "../Dataset/",
+    "Input_FileName": "Dataset_CSV.csv",
+    "Input_FieldSeperator": ",",
+	"Input_PredictionDetails":{
+		"PD_KeytoSelectStudent":"Seat No",
+		"PF_PredictForAllStudents":false,
+		"PD_Value_StudentsToMoniterCode":["B150394201"],
+		"PD_SubjectCode_SubjetToBePredicted":"410252D",
+		"PD_PerformPredictionOnColumn":"Insem+Theory",
+		"PD_MinPredictionArrayLength":10,
+		"PD_MaxPredictionArrayLength":100
+	},
+	"Output_PredictionResult":{
+		"OP_Key_NameOfStudent":"Name of student"
+	},
+    "CSV_ColumnHeaders": ["Insem", "Theory", "Insem+Theory", "Total", "Credit", "Grade", "Grade Points", "Credit Points"],
+    "CSV_SubjectsToBeDropped": ["410243", "410246", "410247", "410248", "302054A", "410254", "410255", "410256"],
+    "CSV_Subjects_Correlation": {
+        "410250": {
+            "relation_SubjectName": "Machine Learning",
+            "relation_RelatedSubject": ["410242"]
+        },
+        "410251": {
+            "relation_SubjectName": "Information and Cyber Security",
+            "relation_RelatedSubject": []
+        },
+        "410252D": {
+            "relation_SubjectName": "Soft Computing and Optimization Algorithms",
+            "relation_RelatedSubject": ["410242","410244"]
+        },
+        "410253C": {
+            "relation_SubjectName": "Cloud Computing",
+            "relation_RelatedSubject": ["410245A"]
+        }
+    }
+}
